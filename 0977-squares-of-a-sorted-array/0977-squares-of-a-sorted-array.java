@@ -25,7 +25,7 @@ class Solution {
         // }
         // return res;
 
-        ArrayList<Integer> neg = new ArrayList<>();
+    ArrayList<Integer> neg = new ArrayList<>();
     ArrayList<Integer> pos = new ArrayList<>();
     int n = nums.length;
     int[] res = new int[n];
