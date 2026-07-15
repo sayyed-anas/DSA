@@ -1,6 +1,6 @@
 class Solution {
     public String minWindow(String s, String t) {
-       
+
        if (s.length() < t.length()){
         return "";
        }
@@ -20,13 +20,14 @@ class Solution {
 
         char rightChar = s.charAt(high);
 
-        if (freq[rightChar] > 0){
+        if(freq[rightChar] > 0){
             matched++;
         }
 
         freq[rightChar]--;
 
-        while(matched == t.length()){
+        while (matched == t.length()){
+
             if ((high - low) + 1 < minLen){
                 minLen = (high - low) + 1;
                 start = low;
@@ -43,6 +44,6 @@ class Solution {
             low++;
         }
        }
-       return minLen == Integer.MAX_VALUE ? "" : s.substring(start,start+minLen);
+       return minLen == Integer.MAX_VALUE ? "" : s.substring(start, start+minLen);
     }
 }
