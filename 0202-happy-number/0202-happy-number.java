@@ -17,8 +17,8 @@ class Solution {
         do {
             slow = squaredSum(slow);
             fast = squaredSum(squaredSum(fast));
-        } while(slow != fast && fast != 1);
+        } while(slow != fast);
 
-        return fast == 1;
+        return slow == 1;
     }
 }
