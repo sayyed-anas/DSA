@@ -1,31 +1,34 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-       int n = s.length();
-       int low = 0;
-       int res = 0;
-       HashMap<Character, Integer> freq = new HashMap<>();
+        
+        HashMap<Character,Integer> freq = new HashMap<>();
+        int n = s.length();
+        int low = 0;
+        int max_len = Integer.MIN_VALUE;
 
-       for (int high = 0; high < n; high++){
-        char ch = s.charAt(high);
-        freq.put(ch, freq.getOrDefault(ch, 0) + 1);
-        int k = (high - low) + 1;
+        for (int high = 0; high < n; high++){
 
-        while (freq.size() < k){
-            char leftChar = s.charAt(low);
-            freq.put(leftChar, freq.get(leftChar) - 1);
+            freq.put(s.charAt(high), freq.getOrDefault(s.charAt(high), 0) + 1);
+            int len = high - low + 1;
 
-            if (freq.get(leftChar) == 0){
-                freq.remove(leftChar);
+            while (len > freq.size()){
+
+                char leftChar = s.charAt(low);
+
+                freq.put(leftChar, freq.get(leftChar) - 1);
+
+                if (freq.get(leftChar) == 0){
+                    freq.remove(leftChar);
+                }
+
+                low++;
+                len = high - low + 1;
             }
-            low++;
-            k = (high - low) + 1;
-        }
 
-        if (freq.size() == k){
-            int len = (high - low) + 1;
-            res = Math.max(res, len);
+            if (freq.size() >= len){
+                max_len = Math.max(max_len, len);
+            }
         }
-       }
-       return res;
+        return max_len == Integer.MIN_VALUE ? 0 : max_len;
     }
 }
