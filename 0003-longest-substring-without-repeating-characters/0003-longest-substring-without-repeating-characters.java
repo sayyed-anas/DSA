@@ -4,7 +4,7 @@ class Solution {
         HashMap<Character,Integer> freq = new HashMap<>();
         int n = s.length();
         int low = 0;
-        int max_len = Integer.MIN_VALUE;
+        int max_len = 0;
 
         for (int high = 0; high < n; high++){
 
@@ -29,6 +29,6 @@ class Solution {
                 max_len = Math.max(max_len, len);
             }
         }
-        return max_len == Integer.MIN_VALUE ? 0 : max_len;
+        return max_len;
     }
 }
