@@ -1,32 +1,34 @@
 class Solution {
-    private static int minSum(int[] nums, int n){
+    private static int maximumSum(int[] nums){
 
-        int minEnding = nums[0];
-        int res = nums[0];
-
-        for (int i = 1; i < n; i++){
-            int v1 = nums[i];
-            int v2 = minEnding + nums[i];
-
-            minEnding = Math.min(v1, v2);
-            res = Math.min(res, minEnding);
-        }
-        return Math.abs(res);
-    }
-
-    private static int maxSum(int[] nums, int n){
-
-        int res = nums[0];
         int maxEnding = nums[0];
+        int maxSum = nums[0];
 
-        for (int i = 1; i < n; i++){
+        for (int i = 1; i < nums.length; i++){
             maxEnding = Math.max(nums[i], maxEnding + nums[i]);
-            res = Math.max(res, maxEnding);
+            maxSum = Math.max(maxSum, maxEnding);
         }
-        return Math.abs(res);
+        return Math.abs(maxSum);
     }
+
+    private static int minimumSum(int[] nums){
+
+        int minSum = nums[0];
+        int minEnding = nums[0];
+
+        for (int i = 1; i < nums.length; i++){
+            minEnding = Math.min(nums[i], minEnding + nums[i]);
+            minSum = Math.min(minSum, minEnding);
+        }
+        return Math.abs(minSum);
+    }
+
     public int maxAbsoluteSum(int[] nums) {
-        int n = nums.length;
-        return Math.max(minSum(nums,n), maxSum(nums,n));
+        if (maximumSum(nums) > minimumSum(nums)){
+            return maximumSum(nums);
+        }
+        else {
+            return minimumSum(nums);
+        }
     }
 }
