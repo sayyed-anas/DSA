@@ -17,7 +17,7 @@ class Solution {
                 return i;
             }
 
-            left = left + nums[i];
+            left = left + nums[i];   
         }
         return -1;
     }
