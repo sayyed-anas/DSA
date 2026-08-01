@@ -15,13 +15,13 @@ class Solution {
             }
             list.add(new int[]{intervals[i][0], intervals[i][1]});
         }
-        
+
         if (!insert) {
             list.add(newInterval);
         }
 
         int[][] ans = list.toArray(new int[list.size()][]);
-        Arrays.sort(ans, (a,b) -> Integer.compare(a[0],b[0]));
+        
 
         int start1 = ans[0][0];
         int end1 = ans[0][1];
