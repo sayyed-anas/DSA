@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/sayyed-anas/DSA/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/sayyed-anas/DSA/tree/master/0724-find-pivot-index) |
 | [0739-daily-temperatures](https://github.com/sayyed-anas/DSA/tree/master/0739-daily-temperatures) |
+| [0860-lemonade-change](https://github.com/sayyed-anas/DSA/tree/master/0860-lemonade-change) |
 | [0904-fruit-into-baskets](https://github.com/sayyed-anas/DSA/tree/master/0904-fruit-into-baskets) |
 | [0918-maximum-sum-circular-subarray](https://github.com/sayyed-anas/DSA/tree/master/0918-maximum-sum-circular-subarray) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/sayyed-anas/DSA/tree/master/0974-subarray-sums-divisible-by-k) |
@@ -159,4 +160,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0503-next-greater-element-ii](https://github.com/sayyed-anas/DSA/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/sayyed-anas/DSA/tree/master/0739-daily-temperatures) |
+## Greedy
+|  |
+| ------- |
+| [0860-lemonade-change](https://github.com/sayyed-anas/DSA/tree/master/0860-lemonade-change) |
 <!---LeetCode Topics End-->
