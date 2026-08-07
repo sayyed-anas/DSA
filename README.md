@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/sayyed-anas/DSA/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sayyed-anas/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0053-maximum-subarray](https://github.com/sayyed-anas/DSA/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/sayyed-anas/DSA/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/sayyed-anas/DSA/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/sayyed-anas/DSA/tree/master/0057-insert-interval) |
 | [0075-sort-colors](https://github.com/sayyed-anas/DSA/tree/master/0075-sort-colors) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/sayyed-anas/DSA/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/sayyed-anas/DSA/tree/master/0055-jump-game) |
 | [0152-maximum-product-subarray](https://github.com/sayyed-anas/DSA/tree/master/0152-maximum-product-subarray) |
 | [0918-maximum-sum-circular-subarray](https://github.com/sayyed-anas/DSA/tree/master/0918-maximum-sum-circular-subarray) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/sayyed-anas/DSA/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
@@ -163,5 +165,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/sayyed-anas/DSA/tree/master/0055-jump-game) |
 | [0860-lemonade-change](https://github.com/sayyed-anas/DSA/tree/master/0860-lemonade-change) |
 <!---LeetCode Topics End-->
