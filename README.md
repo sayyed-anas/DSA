@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/sayyed-anas/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0503-next-greater-element-ii](https://github.com/sayyed-anas/DSA/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/sayyed-anas/DSA/tree/master/0560-subarray-sum-equals-k) |
+| [0704-binary-search](https://github.com/sayyed-anas/DSA/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/sayyed-anas/DSA/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/sayyed-anas/DSA/tree/master/0724-find-pivot-index) |
 | [0739-daily-temperatures](https://github.com/sayyed-anas/DSA/tree/master/0739-daily-temperatures) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/sayyed-anas/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/sayyed-anas/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/sayyed-anas/DSA/tree/master/0287-find-the-duplicate-number) |
+| [0704-binary-search](https://github.com/sayyed-anas/DSA/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/sayyed-anas/DSA/tree/master/0713-subarray-product-less-than-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/sayyed-anas/DSA/tree/master/1004-max-consecutive-ones-iii) |
 ## Hash Table
