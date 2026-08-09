@@ -2,45 +2,44 @@ import java.util.*;
 
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-
+        
         Arrays.sort(nums);
-
         int n = nums.length;
         List<List<Integer>> list = new ArrayList<>();
         
-        for (int i = 0; i < n-2; i++){
+        for (int i = 0; i < n; i++){
 
-            if (i > 0 && nums[i] == nums[i - 1]){
+            if (i > 0 && nums[i] == nums[i-1]){
                 continue;
             }
+            
+            int target = -1 * nums[i];
+            int low = i + 1;
+            int high = n - 1;
 
-            int left = i + 1;
-            int right = n - 1;
-            int currElem = -1 * nums[i];
+            while (low < high){
+                
+                int sum = nums[low] + nums[high];
 
-          while (left < right){
-            int sum = nums[left] + nums[right];
-            if (currElem == sum){
+                if (sum == target){
+                    list.add(new ArrayList<>(Arrays.asList(nums[i], nums[low], nums[high])));
+                    low++;
+                    high--;
 
-                list.add(new ArrayList<>(Arrays.asList(nums[i],nums[left],nums[right])));
-                left++;
-                right--;
-
-                while (left < n && nums[left] == nums[left - 1]){
-                    left++;
+                    while (low < n && nums[low] == nums[low-1]){
+                        low++;
+                    }
+                    while (high >= 0 && nums[high] == nums[high+1]){
+                        high--;
+                    }
                 }
-                while (right >= 0 && nums[right] == nums[right + 1]){
-                    right--;
+                else if (sum > target){
+                    high--;
+                }
+                else {
+                    low++;
                 }
             }
-
-            else if (sum > currElem){
-                right--;
-            }
-            else {
-                left++;
-            }
-        }
         }
         return list;
     }
