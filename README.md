@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/sayyed-anas/DSA/tree/master/0739-daily-temperatures) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/sayyed-anas/DSA/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0860-lemonade-change](https://github.com/sayyed-anas/DSA/tree/master/0860-lemonade-change) |
+| [0875-koko-eating-bananas](https://github.com/sayyed-anas/DSA/tree/master/0875-koko-eating-bananas) |
 | [0904-fruit-into-baskets](https://github.com/sayyed-anas/DSA/tree/master/0904-fruit-into-baskets) |
 | [0918-maximum-sum-circular-subarray](https://github.com/sayyed-anas/DSA/tree/master/0918-maximum-sum-circular-subarray) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/sayyed-anas/DSA/tree/master/0974-subarray-sums-divisible-by-k) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/sayyed-anas/DSA/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/sayyed-anas/DSA/tree/master/0713-subarray-product-less-than-k) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/sayyed-anas/DSA/tree/master/0852-peak-index-in-a-mountain-array) |
+| [0875-koko-eating-bananas](https://github.com/sayyed-anas/DSA/tree/master/0875-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/sayyed-anas/DSA/tree/master/1004-max-consecutive-ones-iii) |
 ## Hash Table
 |  |
