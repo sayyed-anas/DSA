@@ -2,7 +2,6 @@ class Solution {
     public int minSubArrayLen(int target, int[] nums) {
 
       int n = nums.length; 
-      int res = 0;
       int low = 0;
       int minLength = Integer.MAX_VALUE;
       int sum = 0;
