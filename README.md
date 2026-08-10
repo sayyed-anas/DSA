@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/sayyed-anas/DSA/tree/master/0202-happy-number) |
 | [0287-find-the-duplicate-number](https://github.com/sayyed-anas/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0567-permutation-in-string](https://github.com/sayyed-anas/DSA/tree/master/0567-permutation-in-string) |
+| [0844-backspace-string-compare](https://github.com/sayyed-anas/DSA/tree/master/0844-backspace-string-compare) |
 | [0876-middle-of-the-linked-list](https://github.com/sayyed-anas/DSA/tree/master/0876-middle-of-the-linked-list) |
 | [0977-squares-of-a-sorted-array](https://github.com/sayyed-anas/DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [0986-interval-list-intersections](https://github.com/sayyed-anas/DSA/tree/master/0986-interval-list-intersections) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0409-longest-palindrome](https://github.com/sayyed-anas/DSA/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/sayyed-anas/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/sayyed-anas/DSA/tree/master/0567-permutation-in-string) |
+| [0844-backspace-string-compare](https://github.com/sayyed-anas/DSA/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/sayyed-anas/DSA/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1189-maximum-number-of-balloons](https://github.com/sayyed-anas/DSA/tree/master/1189-maximum-number-of-balloons) |
 ## Linked List
@@ -182,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/sayyed-anas/DSA/tree/master/0020-valid-parentheses) |
 | [0503-next-greater-element-ii](https://github.com/sayyed-anas/DSA/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/sayyed-anas/DSA/tree/master/0739-daily-temperatures) |
+| [0844-backspace-string-compare](https://github.com/sayyed-anas/DSA/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/sayyed-anas/DSA/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 ## Monotonic Stack
 |  |
@@ -216,4 +219,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/sayyed-anas/DSA/tree/master/0075-sort-colors) |
+## Simulation
+|  |
+| ------- |
+| [0844-backspace-string-compare](https://github.com/sayyed-anas/DSA/tree/master/0844-backspace-string-compare) |
 <!---LeetCode Topics End-->
