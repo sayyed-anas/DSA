@@ -152,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0007-reverse-integer](https://github.com/sayyed-anas/DSA/tree/master/0007-reverse-integer) |
 | [0202-happy-number](https://github.com/sayyed-anas/DSA/tree/master/0202-happy-number) |
+| [2119-a-number-after-a-double-reversal](https://github.com/sayyed-anas/DSA/tree/master/2119-a-number-after-a-double-reversal) |
 ## Divide and Conquer
 |  |
 | ------- |
