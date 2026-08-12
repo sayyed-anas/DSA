@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public boolean checkInclusion(String s1, String s2) {
 
@@ -15,14 +17,16 @@ class Solution {
 
         for (int high = 0; high < s2.length(); high++){
 
-            window[s2.charAt(high) - 'a']++;
+            char rightChar = s2.charAt(high);
+            window[rightChar - 'a']++;
 
             if ((high - low) + 1 > s1.length()){
-                window[s2.charAt(low) - 'a']--;
+                char leftChar = s2.charAt(low);
+                window[leftChar - 'a']--;
                 low++;
-            }
+            } 
 
-            if (java.util.Arrays.equals(need,window)){
+            if (Arrays.equals(need, window)){
                 return true;
             }
         }
