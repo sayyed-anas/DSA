@@ -228,4 +228,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0844-backspace-string-compare](https://github.com/sayyed-anas/DSA/tree/master/0844-backspace-string-compare) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/sayyed-anas/DSA/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
