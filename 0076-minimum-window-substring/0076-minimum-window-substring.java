@@ -1,46 +1,49 @@
 class Solution {
     public String minWindow(String s, String t) {
 
+        int low = 0;
+        int minLen = Integer.MAX_VALUE;
+        int[] freq = new int[128];
+        int matched = 0;
+        int start = 0;
+
         if (s.length() < t.length()){
             return "";
         }
 
-        int[] freq = new int[128];
-        int low = 0;
-        int matched = 0;
-        int min_len = Integer.MAX_VALUE;
-        int start = 0;
-        int n = s.length();
-
-        for (char ch : t.toCharArray()){
+        for (int i = 0; i < t.length(); i++){
+            char ch = t.charAt(i);
             freq[ch]++;
         }
 
-        for (int high = 0; high < n; high++){
-            
+        for (int high = 0; high < s.length(); high++){
+
             char rightChar = s.charAt(high);
 
             if (freq[rightChar] > 0){
                 matched++;
             }
-            
+
             freq[rightChar]--;
 
             while (matched == t.length()){
-                if ((high - low) + 1 < min_len){
-                    min_len = (high - low) + 1;
+
+                if ((high - low) + 1 < minLen){
+                    minLen = (high - low) + 1;
                     start = low;
                 }
 
-                char leftChar = s.charAt(low);
+                int leftChar = s.charAt(low);
+
                 freq[leftChar]++;
 
                 if (freq[leftChar] > 0){
                     matched--;
                 }
+
                 low++;
             }
         }
-        return min_len == Integer.MAX_VALUE ? "" : s.substring(start, start+min_len);
+        return minLen == Integer.MAX_VALUE ? "" : s.substring(start, start+minLen);
     }
 }
