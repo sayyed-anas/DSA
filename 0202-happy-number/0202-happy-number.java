@@ -1,12 +1,13 @@
 class Solution {
 
-    private int squaredSum (int n){
+    private static int squaredSum(int n){
 
         int sum = 0;
 
         while (n != 0){
-            int digit = n % 10;
-            sum = sum + digit * digit;
+
+            int lastDigit = n % 10;
+            sum = sum + lastDigit * lastDigit;
             n = n / 10;
         }
         return sum;
