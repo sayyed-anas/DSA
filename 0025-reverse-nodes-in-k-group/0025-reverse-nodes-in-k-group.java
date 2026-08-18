@@ -25,6 +25,10 @@ class Solution {
     }
     public ListNode reverseKGroup(ListNode head, int k) {
 
+        if (head == null) {
+            return head;
+        }
+        
         ListNode left = head;
         ListNode prevLeft = null;
         ListNode res = null;
