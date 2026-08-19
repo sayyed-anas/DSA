@@ -7,6 +7,7 @@ class Solution {
         int res = -1;
 
         while (low <= high){
+
             int mid = (low + high) / 2;
 
             if (arr[mid] < arr[mid + 1]){
