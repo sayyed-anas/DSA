@@ -7,9 +7,10 @@ class Solution {
         int res = -1;
 
         while (low <= high){
+
             int mid = (low + high) / 2;
 
-            if (nums[mid] > nums[n-1]){
+            if (nums[mid] > nums[n - 1]){
                 low = mid + 1;
             }
             else {
