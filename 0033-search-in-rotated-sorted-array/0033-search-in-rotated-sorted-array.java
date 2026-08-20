@@ -15,23 +15,19 @@ class Solution {
             // Left half is sorted
             if (nums[low] <= nums[mid]) {
 
-                // Target lies inside left sorted half
                 if (nums[low] <= target && target < nums[mid]) {
                     high = mid - 1;
-                } 
-                else {
+                } else {
                     low = mid + 1;
                 }
-            }
 
+            }
             // Right half is sorted
             else {
 
-                // Target lies inside right sorted half
                 if (nums[mid] < target && target <= nums[high]) {
                     low = mid + 1;
-                } 
-                else {
+                } else {
                     high = mid - 1;
                 }
             }
