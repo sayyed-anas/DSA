@@ -4,7 +4,7 @@ class Solution {
         int n = matrix.length;
         int low = 0;
         int high = n - 1;
-        int row = -1;
+        int row = 0;
 
         while (low <= high){
 
@@ -19,9 +19,9 @@ class Solution {
             }
         }
 
-        if (row == -1){
-            return false;
-        }
+        // if (row == -1){
+        //     return false;
+        // }
 
         int left = 0;
         int right = matrix[row].length - 1;
