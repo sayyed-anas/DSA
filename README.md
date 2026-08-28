@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/sayyed-anas/DSA/tree/master/0217-contains-duplicate) |
 | [0240-search-a-2d-matrix-ii](https://github.com/sayyed-anas/DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/sayyed-anas/DSA/tree/master/0287-find-the-duplicate-number) |
+| [0347-top-k-frequent-elements](https://github.com/sayyed-anas/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sayyed-anas/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0503-next-greater-element-ii](https://github.com/sayyed-anas/DSA/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/sayyed-anas/DSA/tree/master/0560-subarray-sum-equals-k) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/sayyed-anas/DSA/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sayyed-anas/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/sayyed-anas/DSA/tree/master/0217-contains-duplicate) |
+| [0347-top-k-frequent-elements](https://github.com/sayyed-anas/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sayyed-anas/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0977-squares-of-a-sorted-array](https://github.com/sayyed-anas/DSA/tree/master/0977-squares-of-a-sorted-array) |
 ## Binary Search
@@ -104,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/sayyed-anas/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0202-happy-number](https://github.com/sayyed-anas/DSA/tree/master/0202-happy-number) |
 | [0217-contains-duplicate](https://github.com/sayyed-anas/DSA/tree/master/0217-contains-duplicate) |
+| [0347-top-k-frequent-elements](https://github.com/sayyed-anas/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/sayyed-anas/DSA/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/sayyed-anas/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0409-longest-palindrome](https://github.com/sayyed-anas/DSA/tree/master/0409-longest-palindrome) |
@@ -181,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/sayyed-anas/DSA/tree/master/0053-maximum-subarray) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sayyed-anas/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/sayyed-anas/DSA/tree/master/0240-search-a-2d-matrix-ii) |
+| [0347-top-k-frequent-elements](https://github.com/sayyed-anas/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0918-maximum-sum-circular-subarray](https://github.com/sayyed-anas/DSA/tree/master/0918-maximum-sum-circular-subarray) |
 ## Dynamic Programming
 |  |
@@ -228,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/sayyed-anas/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/sayyed-anas/DSA/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/sayyed-anas/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [1189-maximum-number-of-balloons](https://github.com/sayyed-anas/DSA/tree/master/1189-maximum-number-of-balloons) |
@@ -276,9 +281,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/sayyed-anas/DSA/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/sayyed-anas/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sayyed-anas/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 ## Quickselect
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/sayyed-anas/DSA/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/sayyed-anas/DSA/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/sayyed-anas/DSA/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
