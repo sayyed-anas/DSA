@@ -7,16 +7,16 @@ class Solution {
 
         while (left < right){
 
-            int sum = numbers[left] + numbers[right];
+            int currSum = numbers[left] + numbers[right];
 
-            if (sum == target){
+            if (currSum == target){
                 return new int[]{left + 1, right + 1};
             }
-            else if (sum > target){
-                right--;
+            else if (currSum < target){
+                left++;
             }
             else {
-                left++;
+                right--;
             }
         }
         return new int[]{-1};
