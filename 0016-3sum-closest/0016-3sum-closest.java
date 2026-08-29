@@ -6,33 +6,34 @@ class Solution {
         Arrays.sort(nums);
         int n = nums.length;
         int min_diff = Integer.MAX_VALUE;
-        int closest_sum = 0;
+        int resSum = 0;
 
-        for (int i = 0; i < n-2; i++){
+        for (int i = 0; i < n - 2; i++){
 
-            int low = i + 1;
-            int high = n - 1;
+            int left = i + 1;
+            int right = n - 1;
 
-            while (low < high){
-                int curr_sum = nums[i] + nums[low] + nums[high];
-                int diff = Math.abs(curr_sum - target);
+            while (left < right){
 
-                if (diff < min_diff){
-                    min_diff = diff;
-                    closest_sum = curr_sum;
+                int currSum = nums[i] + nums[left] + nums[right];
+                int currDiff = Math.abs(currSum - target);
+
+                if (currDiff < min_diff){
+                    min_diff = currDiff;
+                    resSum = currSum;
                 }
 
-                if (curr_sum == target){
-                    return curr_sum;
+                if (currSum == target){
+                    return currSum;
                 }
-                else if (curr_sum > target){
-                    high--;
+                else if (currSum > target){
+                    right--;
                 }
                 else {
-                    low++;
+                    left++;
                 }
             }
-        }
-        return closest_sum;
+        }  
+        return resSum;
     }
 }
