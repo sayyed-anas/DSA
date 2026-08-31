@@ -1,64 +1,54 @@
-import java.util.*;
-
-class Pairs<T, U> {
-
+class Pairs<T,U> {
     T first;
     U second;
 
-    Pairs(T first, U second) {
+    Pairs(T first, U second){
         this.first = first;
         this.second = second;
     }
 }
 
 class Solution {
-
     public int[] topKFrequent(int[] nums, int k) {
 
-        int n = nums.length;
-
-        PriorityQueue<Pairs<Integer, Integer>> heap =
-            new PriorityQueue<>(
-                (a, b) -> {
-                    if (!a.first.equals(b.first)) {
-                        return Integer.compare(a.first, b.first);
-                    }
-                    return Integer.compare(a.second, b.second);
+        PriorityQueue<Pairs<Integer,Integer>> pq = new PriorityQueue<>(
+            (a,b) -> {
+                if (!a.first.equals(b.first)){
+                    return a.first - b.first;
                 }
-            );
 
-        HashMap<Integer, Integer> freq = new HashMap<>();
+                return a.second - b.second;
+            }
+        );
 
-        // Count frequencies
-        for (int i = 0; i < n; i++) {
-            freq.put(
-                nums[i],
-                freq.getOrDefault(nums[i], 0) + 1
-            );
+        int n = nums.length;
+        HashMap<Integer,Integer> freq = new HashMap<>();
+
+        for (int elem : nums){
+            freq.put(elem, freq.getOrDefault(elem, 0) + 1);
         }
 
-        // Keep k most frequent elements
-        for (Map.Entry<Integer, Integer> entry : freq.entrySet()) {
+        for (Map.Entry<Integer,Integer> entry : freq.entrySet()){
 
-            int element = entry.getKey();
-            int frq = entry.getValue();
+            int elem = entry.getKey();
+            int f = entry.getValue();
 
-            Pairs<Integer, Integer> curr =
-                new Pairs<>(frq, element);
+            Pairs<Integer,Integer> currPair = new Pairs<>(f,elem);
 
-            if (heap.size() < k) {
-                heap.add(curr);
-            } else if (curr.first > heap.peek().first) {
-                heap.poll();
-                heap.add(curr);
+            if (pq.size() < k){
+                pq.add(currPair);
+            }
+            else if (currPair.first > pq.peek().first){
+                pq.poll();
+                pq.add(currPair);
             }
         }
 
         int[] res = new int[k];
+        int pos = 0;
 
-        // Extract elements
-        for (int i = 0; i < k; i++) {
-            res[i] = heap.poll().second;
+        while (!pq.isEmpty()){
+            res[pos++] = pq.poll().second;
         }
 
         return res;
