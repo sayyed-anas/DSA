@@ -3,20 +3,19 @@ import java.util.*;
 class Solution {
     public int findKthLargest(int[] nums, int k) {
 
-        PriorityQueue<Integer> heap = new PriorityQueue<>();
         int n = nums.length;
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
 
-        for (int i = 0; i < k; i++){
-            heap.add(nums[i]);
-        }  
+        for (int elem : nums){
 
-        for (int i = k; i < n; i++){
-
-            if (heap.peek() <= nums[i]){
-                heap.poll();
-                heap.add(nums[i]);
+            if (pq.size() < k){
+                pq.add(elem);
             }
-        } 
-        return heap.peek(); 
+            else if (pq.peek() < elem){
+                pq.poll();
+                pq.add(elem);
+            }
+        }
+        return pq.peek();
     }
 }
