@@ -1,6 +1,6 @@
 class Solution {
     public int findMaximizedCapital(int k, int w, int[] profits, int[] capital) {
-        
+
         int n = capital.length;
         int[][] proj = new int[n][2];
 
@@ -15,11 +15,11 @@ class Solution {
             }
         );
 
+        int idx = 0;
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
 
-        int idx = 0;
         while (k-- != 0){
-            while (idx < proj.length){
+            while (idx < n){
 
                 if (proj[idx][0] > w){
                     break;
@@ -35,6 +35,7 @@ class Solution {
 
             w = w + pq.poll();
         }
+
         return w;
     }
 }
