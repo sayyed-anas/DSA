@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/sayyed-anas/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/sayyed-anas/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sayyed-anas/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0502-ipo](https://github.com/sayyed-anas/DSA/tree/master/0502-ipo) |
 | [0503-next-greater-element-ii](https://github.com/sayyed-anas/DSA/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/sayyed-anas/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0692-top-k-frequent-words](https://github.com/sayyed-anas/DSA/tree/master/0692-top-k-frequent-words) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/sayyed-anas/DSA/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/sayyed-anas/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sayyed-anas/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0502-ipo](https://github.com/sayyed-anas/DSA/tree/master/0502-ipo) |
 | [0692-top-k-frequent-words](https://github.com/sayyed-anas/DSA/tree/master/0692-top-k-frequent-words) |
 | [0767-reorganize-string](https://github.com/sayyed-anas/DSA/tree/master/0767-reorganize-string) |
 | [0973-k-closest-points-to-origin](https://github.com/sayyed-anas/DSA/tree/master/0973-k-closest-points-to-origin) |
@@ -239,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0055-jump-game](https://github.com/sayyed-anas/DSA/tree/master/0055-jump-game) |
 | [0409-longest-palindrome](https://github.com/sayyed-anas/DSA/tree/master/0409-longest-palindrome) |
+| [0502-ipo](https://github.com/sayyed-anas/DSA/tree/master/0502-ipo) |
 | [0767-reorganize-string](https://github.com/sayyed-anas/DSA/tree/master/0767-reorganize-string) |
 | [0860-lemonade-change](https://github.com/sayyed-anas/DSA/tree/master/0860-lemonade-change) |
 ## Counting
@@ -297,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/sayyed-anas/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/sayyed-anas/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sayyed-anas/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0502-ipo](https://github.com/sayyed-anas/DSA/tree/master/0502-ipo) |
 | [0692-top-k-frequent-words](https://github.com/sayyed-anas/DSA/tree/master/0692-top-k-frequent-words) |
 | [0767-reorganize-string](https://github.com/sayyed-anas/DSA/tree/master/0767-reorganize-string) |
 | [0973-k-closest-points-to-origin](https://github.com/sayyed-anas/DSA/tree/master/0973-k-closest-points-to-origin) |
