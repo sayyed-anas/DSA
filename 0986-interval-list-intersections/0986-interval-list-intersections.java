@@ -14,7 +14,7 @@ class Solution {
 
             if (start1 <= start2){
                 if (end1 >= start2){
-
+                    
                     int start = Math.max(start1,start2);
                     int end = Math.min(end1,end2);
 
@@ -25,7 +25,6 @@ class Solution {
                 if (end2 >= start1){
                     int start = Math.max(start1,start2);
                     int end = Math.min(end1,end2);
-
                     list.add(new int[]{start,end});
                 }
             }
@@ -33,10 +32,11 @@ class Solution {
             if (end1 <= end2){
                 i++;
             }
-            else{
+            else {
                 j++;
             }
-       }
-       return list.toArray(new int[list.size()][]);
+        }
+
+        return list.toArray(new int[list.size()][]);
     }
 }
