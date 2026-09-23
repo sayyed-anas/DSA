@@ -191,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/sayyed-anas/DSA/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/sayyed-anas/DSA/tree/master/0009-palindrome-number) |
 | [0202-happy-number](https://github.com/sayyed-anas/DSA/tree/master/0202-happy-number) |
+| [0507-perfect-number](https://github.com/sayyed-anas/DSA/tree/master/0507-perfect-number) |
 | [0509-fibonacci-number](https://github.com/sayyed-anas/DSA/tree/master/0509-fibonacci-number) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/sayyed-anas/DSA/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0973-k-closest-points-to-origin](https://github.com/sayyed-anas/DSA/tree/master/0973-k-closest-points-to-origin) |
