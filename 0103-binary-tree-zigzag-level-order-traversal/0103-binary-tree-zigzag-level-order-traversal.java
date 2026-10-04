@@ -24,19 +24,31 @@ class Solution {
 
         Queue<TreeNode> q = new LinkedList<>();
         q.offer(root);
-        boolean leftRight = false;
+        boolean leftRight = true;
 
         while(!q.isEmpty()){
 
             int lvlSize = q.size();
-            List<Integer> tmp = new ArrayList<>(lvlSize);
+            List<Integer> tmp = new ArrayList<>(
+                Collections.nCopies(lvlSize, 0)
+            );
+
+            int first = 0;
+            int last = tmp.size() - 1;
 
             while(lvlSize-- != 0){
 
                 TreeNode t = q.peek();
                 q.poll();
 
-                tmp.add(t.val);
+                if (leftRight == true){
+                    tmp.set(first, t.val);
+                    first++;
+                }
+                else {
+                    tmp.set(last, t.val);
+                    last--;
+                }
                 
                 if (t.left != null){
                     q.offer(t.left);
@@ -44,10 +56,6 @@ class Solution {
                 if (t.right != null){
                     q.offer(t.right);
                 }
-            }
-
-            if (leftRight == true){
-                Collections.reverse(tmp);
             }
                 
             leftRight = !leftRight;
