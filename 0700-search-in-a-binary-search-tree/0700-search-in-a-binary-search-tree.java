@@ -27,9 +27,12 @@ class Solution {
             ans = root;
             return ans;
         }
-
-        searchBST(root.left, val);
-        searchBST(root.right, val);
+        else if (root.val > val){
+            searchBST(root.left, val);
+        }
+        else{
+            searchBST(root.right, val);
+        }
 
         return ans;
     }
