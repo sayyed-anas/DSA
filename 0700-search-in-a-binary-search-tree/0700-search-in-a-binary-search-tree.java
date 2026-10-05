@@ -25,6 +25,7 @@ class Solution {
 
         if (root.val == val){
             ans = root;
+            return ans;
         }
 
         searchBST(root.left, val);
