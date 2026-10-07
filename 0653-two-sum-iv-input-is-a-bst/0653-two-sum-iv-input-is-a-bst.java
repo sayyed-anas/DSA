@@ -15,37 +15,73 @@
  */
 class Solution {
 
-    private static void inOrder(TreeNode node, List<Integer> list){
+    Stack<TreeNode> asc = new Stack<>();
+    Stack<TreeNode> desc = new Stack<>();
 
-        if (node == null){
-            return;
+    private TreeNode getSmall(){
+
+        TreeNode small = null;
+
+        small = asc.peek();
+        asc.pop();
+
+        TreeNode rightChild = small.right;
+
+        while (rightChild != null){
+
+            asc.push(rightChild);
+            rightChild = rightChild.left;
         }
 
-        inOrder(node.left, list);
-        list.add(node.val);
-        inOrder(node.right, list);
+        return small;
     }
+
+    private TreeNode getBig(){
+
+        TreeNode big = desc.peek();
+        desc.pop();
+
+        TreeNode leftChild = big.left;
+
+        while (leftChild != null){
+
+            desc.push(leftChild);
+            leftChild = leftChild.right;
+        }
+
+        return big;
+    }     
+
     public boolean findTarget(TreeNode root, int k) {
         
-        List<Integer> res = new ArrayList<>();
+        TreeNode l = root;
+        TreeNode r = root;
 
-        inOrder(root, res);
+        while (l != null){
+            asc.push(l);
+            l = l.left;
+        }
 
-        int left = 0;
-        int right = res.size() - 1;
+        while (r != null){
+            desc.push(r);
+            r = r.right;
+        }
 
-        while (left < right){
+        TreeNode i = getSmall();
+        TreeNode j = getBig();
 
-            int sum = res.get(left) + res.get(right);
+        while (i != null && j != null && i != j && i.val < j.val){
+
+            int sum = i.val + j.val;
 
             if (sum == k){
                 return true;
             }
             else if (sum > k){
-                right--;
+                j = getBig();
             }
             else {
-                left++;
+                i = getSmall();
             }
         }
 
