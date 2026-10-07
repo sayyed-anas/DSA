@@ -19,7 +19,7 @@ class Solution {
 
     private void rootToLeaf (TreeNode node, int targetSum, int sum){
 
-        if (node == null){
+        if (node == null || res){
             return;
         }
 
