@@ -15,30 +15,32 @@
  */
 class Solution {
 
-    private void validate(TreeNode node, List<Integer> list){
+    TreeNode prev = null;
+    boolean ans = true;
+
+    private void isValid(TreeNode node){
 
         if (node == null){
             return;
         }
 
-        validate(node.left, list);
-        list.add(node.val);
-        validate(node.right, list);
-    }
+        isValid(node.left);
 
-    public boolean isValidBST(TreeNode root) {
-        
-        List<Integer> list = new ArrayList<>();
-
-        validate(root, list);
-
-        for (int i = 0; i < list.size() - 1; i++){
-
-            if (list.get(i) >= list.get(i+1)){
-                return false;
+        if (prev == null){
+            prev = node;
+        }
+        else {
+            if (prev.val >= node.val){
+                ans = false;
             }
+            prev = node;
         }
 
-        return true;
+        isValid(node.right);
+    }
+    public boolean isValidBST(TreeNode root) {
+        
+        isValid(root);
+        return ans;
     }
 }
